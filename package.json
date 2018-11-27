@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "chdir": "^0.0.0",
+    "http-server": "^0.10.0",
+    "post-load-plugins": "^0.0.16",
+    "posthtml": "^0.11.0",
+    "posthtml-inline-assets": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "http-server -c 1 src",
+    "build": "node lib/bundle-asset.js",
+    "serve": "http-server dist",
+    "result": "npm-run-all build serve"
+  }
+}

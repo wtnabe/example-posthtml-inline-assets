@@ -1,0 +1,10 @@
+body {
+  margin:     1em;
+  padding:    1em;
+  background: #f3f3f3;
+}
+
+h1 {
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
